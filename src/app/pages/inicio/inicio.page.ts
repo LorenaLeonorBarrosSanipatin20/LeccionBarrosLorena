@@ -20,7 +20,17 @@ export class InicioPage implements OnInit {
    { 
   icon: 'alert-circle-outline', 
    name: 'Alert', 
-   redirectTo: '/alert' }, ];
+   redirectTo: '/alert' },
+   { 
+   icon: 'heart', 
+   name: 'Avatar', 
+   redirectTo: '/avatar' },
+   {
+
+   
+   icon: 'alert-circle-outline', 
+   name: 'button', 
+   redirectTo: '/button' }, ];
     constructor() { } 
     ngOnInit() { 
 
